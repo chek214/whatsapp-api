@@ -1,0 +1,18 @@
+version: "2.3"
+services:
+  web:
+    build: .
+    container_name: rpi-control
+    network_mode: bridge
+  #  volumes:
+   #   - .:/code
+    #ports:
+    #  - 80:80
+    restart: unless-stopped
+
+
+
+
+
+
+
