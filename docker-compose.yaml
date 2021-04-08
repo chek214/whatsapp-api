@@ -2,7 +2,7 @@ version: "2.3"
 services:
   web:
     build: .
-    container_name: rpi-control
+    container_name: whatsapp-api
     network_mode: bridge
   #  volumes:
    #   - .:/code
