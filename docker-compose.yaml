@@ -4,10 +4,8 @@ services:
     build: .
     container_name: whatsapp-api
     network_mode: bridge
-  #  volumes:
-   #   - .:/code
-    #ports:
-    #  - 80:80
+    ports:
+      - 3200:3200
     restart: unless-stopped
 
 
